@@ -1,4 +1,9 @@
-CREATE TABLE books 
+
+CREATE DATABASE bookshop;
+use bookshop;
+
+
+CREATE TABLE books
 	(
 		book_id INT NOT NULL AUTO_INCREMENT,
 		title VARCHAR(100),

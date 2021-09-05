@@ -8,7 +8,13 @@
 /*
 First thing first is users 
 Users => id, username, created at. 
-*/ 
+*/
+
+
+
+
+create database instadbclone;
+use instadbclone;
 
 CREATE TABLE users (
     id INTEGER AUTO_INCREMENT PRIMARY KEY, 
